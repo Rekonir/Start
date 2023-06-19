@@ -1,0 +1,40 @@
+.MainPage {
+    overflow: hidden;
+
+    .mainContent {
+        margin-top: -82px;
+
+        @media (min-width: 1441px) {
+            margin-top: -5.69vw;
+        }
+    }
+    
+    .contentRow {
+        margin-bottom: 34px;
+
+        @media (min-width: 1441px) {
+            margin-bottom: 2.36vw;
+        }
+    }
+    .contentRow {
+        margin-top: 30px;
+    }
+    .contentRow ~ .contentRow {
+        margin-top: 0;
+    }
+
+    h2 {
+        margin-bottom: 8px;
+        padding-left: 56px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: bold;
+
+        @media (min-width: 1441px) {
+            margin-bottom: 0.555vw;
+            padding-left: 3.89vw;
+            font-size: 1.39vw;
+            line-height: 1.67vw;
+        }
+    }
+}

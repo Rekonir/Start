@@ -1,0 +1,87 @@
+@import "../../../App/App.scss";
+
+.filter {
+    position: relative;
+}
+.wraper {
+    position: relative;
+    width: fit-content;
+    &::after {
+        content: "▼";
+        position: absolute;
+        font-size: 1rem;
+        display: block;
+        right: 15px;
+        transform: translateY(-50%);
+        top: 48%;
+    }
+}
+
+.selector {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    &::-ms-expand {
+        display: none;
+    }
+    appearance: none;
+    height: 3.33vw;
+    padding: 0 1.84vw;
+    width: 10vw;
+    min-width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    gap: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #757d8a;
+    text-align: right;
+    @media (min-width: 1441px) {
+        font-size: 1vw;
+    }
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #fff;
+    }
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+        background: $color-dark-grey;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #fff;
+        border-radius: 20px;
+        border: 1px solid $color-dark-grey;
+    }
+}
+.option {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #757d8a;
+    background: $color-dark-grey;
+    &:hover {
+        border: 1px solid #fff;
+    }
+}
+.filterBox {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #757d8a;
+    background: $color-dark-grey;
+}

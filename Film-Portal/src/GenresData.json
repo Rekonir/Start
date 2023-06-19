@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name_ru": "Комедии",
+    "name_en": "comedy"
+  },
+  {
+    "id": 2,
+    "name_ru": "Мультфильмы",
+    "name_en": "animation"
+  },
+  {
+    "id": 3,
+    "name_ru": "Ужасы",
+    "name_en": "horror"
+  },
+  {
+    "id": 4,
+    "name_ru": "Фантастика",
+    "name_en": "sci-fi"
+  },
+  {
+    "id": 5,
+    "name_ru": "Триллеры",
+    "name_en": "thriller"
+  },
+  {
+    "id": 6,
+    "name_ru": "Боевики",
+    "name_en": "action"
+  },
+  {
+    "id": 7,
+    "name_ru": "Мелодрамы",
+    "name_en": "romance"
+  },
+  {
+    "id": 8,
+    "name_ru": "Детективы",
+    "name_en": "mystery"
+  },
+  {
+    "id": 9,
+    "name_ru": "Приключения",
+    "name_en": "adventure"
+  },
+  {
+    "id": 10,
+    "name_ru": "Фэнтези",
+    "name_en": "fantasy"
+  },
+  {
+    "id": 11,
+    "name_ru": "Военные",
+    "name_en": "war"
+  },
+  {
+    "id": 12,
+    "name_ru": "Семейные",
+    "name_en": "family"
+  },
+  {
+    "id": 13,
+    "name_ru": "Аниме",
+    "name_en": "anime"
+  },
+  {
+    "id": 14,
+    "name_ru": "Исторические",
+    "name_en": "history"
+  },
+  {
+    "id": 15,
+    "name_ru": "Драмы",
+    "name_en": "drama"
+  },
+  {
+    "id": 16,
+    "name_ru": "Документальные",
+    "name_en": "documentary"
+  },
+  {
+    "id": 17,
+    "name_ru": "Детские",
+    "name_en": "children"
+  },
+  {
+    "id": 18,
+    "name_ru": "Криминал",
+    "name_en": "crime"
+  },
+  {
+    "id": 19,
+    "name_ru": "Биографии",
+    "name_en": "biography"
+  },
+  {
+    "id": 20,
+    "name_ru": "Вестерны",
+    "name_en": "western"
+  },
+  {
+    "id": 21,
+    "name_ru": "Фильмы-нуар",
+    "name_en": "film-noir"
+  },
+  {
+    "id": 22,
+    "name_ru": "Спортивные",
+    "name_en": "sport"
+  },
+  {
+    "id": 23,
+    "name_ru": "Реальное ТВ",
+    "name_en": "reality-tv"
+  },
+  {
+    "id": 24,
+    "name_ru": "Короткометражки",
+    "name_en": "short"
+  },
+  {
+    "id": 25,
+    "name_ru": "Музыкальные",
+    "name_en": "music"
+  },
+  {
+    "id": 26,
+    "name_ru": "Мюзиклы",
+    "name_en": "musical"
+  },
+  {
+    "id": 27,
+    "name_ru": "Ток-шоу",
+    "name_en": "talk-show"
+  },
+  {
+    "id": 28,
+    "name_ru": "Игры",
+    "name_en": "game-show"
+  }
+]

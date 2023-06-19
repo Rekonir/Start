@@ -1,0 +1,50 @@
+@import "../../App/App.scss";
+
+.PersonColumn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.personRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.avatar {
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    border-radius: 20%;
+    scale: 1;
+    transition: all 0.1s linear;
+    overflow: hidden;
+
+    &:hover {
+        scale: 1.1;
+        transition: all 0.1s linear;
+    }
+}
+.personName {
+    font-size: 20px;
+    line-height: 1.5;
+    cursor: pointer;
+    overflow: visible;
+    padding-bottom: 2px;
+    border-bottom: 1px solid $color-light-grey;
+    transition: all 0.1s linear;
+    &:hover {
+        border-bottom: 1px solid $color-white;
+        transition: all 0.1s linear;
+    }
+    @media (min-width: 1441px) {
+        font-size: 1.4vw;
+    }
+}
+.toggleLenght{
+    display: flex;
+}

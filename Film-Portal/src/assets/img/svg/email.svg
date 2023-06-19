@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,6.3 C18.9388841,6.3 19.7,7.06111593 19.7,8 L19.7,16 C19.7,16.9388841 18.9388841,17.7 18,17.7 L6,17.7 C5.06111593,17.7 4.3,16.9388841 4.3,16 L4.3,8 C4.3,7.06111593 5.06111593,6.3 6,6.3 L18,6.3 Z M18.3,10.133 L12.3130495,13.126099 C12.1159803,13.2246337 11.8840197,13.2246337 11.6869505,13.126099 L11.6869505,13.126099 L5.7,10.133 L5.7,16 C5.7,16.1656854 5.83431458,16.3 6,16.3 L18,16.3 C18.1656854,16.3 18.3,16.1656854 18.3,16 L18.3,10.133 Z M18,7.7 L6,7.7 C5.83431458,7.7 5.7,7.83431458 5.7,8 L5.7,8.567 L12,11.7173762 L18.3,8.566 L18.3,8 C18.3,7.83431458 18.1656854,7.7 18,7.7 Z" id="path-1"></path>
+    </defs>
+    <g id="Stage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-17">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#F2F2F2" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

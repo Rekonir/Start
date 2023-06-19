@@ -1,0 +1,66 @@
+$color-red: #e00a1e;
+$color-light-red: #ff142a;
+$color-pale-red: #e33749;
+$color-dark-grey: #1d1f23;
+$color-light-grey: #757d8a;
+$color-black: #14161a;
+$color-white: #f2f2f2;
+$color-background-white: #f5f5f5;
+$color-ratingGrad: linear-gradient(66.47deg, #bfe33d -15.94%, #00e4bb 62.41%);
+$color-hoverGrad: linear-gradient(180deg, rgba(40, 44, 51, 0), rgba(40, 44, 51, 0.3)),
+  radial-gradient(circle at 50% 50%, rgba(40, 44, 51, 0.2), rgba(40, 44, 51, 0.5));
+$color-gradgrey: linear-gradient(
+  90deg,
+  #14161a 0,
+  rgba(20, 22, 26, 0.8) 25%,
+  rgba(20, 22, 26, 0.4) 50%,
+  rgba(20, 22, 26, 0) 75%,
+  rgba(20, 22, 26, 0.5)
+);
+
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/ProximaNova-Light.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/ProximaNova-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/ProximaNova-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/ProximaNova-Bold.woff") format("woff"), url(../);
+}
+
+body {
+  font-family: "Proxima Nova", Arial;
+  background: $color-dark-grey;
+  color: $color-white;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

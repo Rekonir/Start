@@ -1,0 +1,7 @@
+import{j as i}from"./jsx-runtime-708f5a67.js";import{r as t}from"./index-c013ead5.js";import"./_commonjsHelpers-725317a4.js";const W="_Paginanor_1uo4g_44",_="_paginatorItem_1uo4g_59",d={Paginanor:W,paginatorItem:_},w=()=>{const[r,n]=t.useState(document.documentElement.clientWidth);return t.useEffect(()=>{const e=()=>{n(document.documentElement.clientWidth)};return window.addEventListener("resize",e),()=>{window.removeEventListener("resize",e)}},[]),r},s=({sliderWidth:r,scroll:n})=>{const e=t.useRef(null),a=t.useRef(null),m=e.current?e.current.offsetWidth:0,p=a.current?a.current.offsetWidth:0,[f,g]=t.useState(0),h=w();return t.useEffect(()=>{g(n*(m-p)/(r-h))},[n]),i.jsx("div",{className:d.Paginanor,ref:e,children:i.jsx("div",{className:d.paginatorItem,style:{transform:`translateX(${f}px)`},ref:a})})};try{s.displayName="Paginator",s.__docgenInfo={description:"",displayName:"Paginator",props:{sliderWidth:{defaultValue:null,description:"",name:"sliderWidth",required:!0,type:{name:"number"}},scroll:{defaultValue:null,description:"",name:"scroll",required:!0,type:{name:"number"}}}}}catch{}const P={title:"Paginator",component:s},o={args:{sliderWidth:5e3,scroll:0}};var c,l,u;o.parameters={...o.parameters,docs:{...(c=o.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    sliderWidth: 5000,
+    scroll: 0
+  }
+}`,...(u=(l=o.parameters)==null?void 0:l.docs)==null?void 0:u.source}}};const I=["Default"];export{o as Default,I as __namedExportsOrder,P as default};
+//# sourceMappingURL=Paginator.stories-5f011e1e.js.map

@@ -1,0 +1,22 @@
+[
+  { "name_ru": "Россия", "name_en": "Russia" },
+  { "name_ru": "СССР", "name_en": "USSR" },
+  { "name_ru": "США", "name_en": "USA" },
+  { "name_ru": "Франция", "name_en": "France" },
+  { "name_ru": "Южная Корея", "name_en": "South Korea" },
+  { "name_ru": "Великобритания", "name_en": "UK" },
+  { "name_ru": "Япония", "name_en": "Japan" },
+  { "name_ru": "Италия", "name_en": "Italy" },
+  { "name_ru": "Испания", "name_en": "Spain" },
+  { "name_ru": "Германия", "name_en": "Germany" },
+  { "name_ru": "Турция", "name_en": "Turkey" },
+  { "name_ru": "Швеция", "name_en": "Sweden" },
+  { "name_ru": "Дания", "name_en": "Denmark" },
+  { "name_ru": "Норвегия", "name_en": "Norway" },
+  { "name_ru": "Гонконг", "name_en": "Hong Kong" },
+  { "name_ru": "Австралия", "name_en": "Australia" },
+  { "name_ru": "Бельгия", "name_en": "Belgium" },
+  { "name_ru": "Нидерланды", "name_en": "Netherlands" },
+  { "name_ru": "Греция", "name_en": "Greece" },
+  { "name_ru": "Австрия", "name_en": "Austria" }
+]

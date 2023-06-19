@@ -1,0 +1,32 @@
+.StoriesCard {
+    background-image: url('../../assets/img/svg/red_bg.svg');
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    width: 128px;
+    height: 172px;
+    padding: 6px;
+    cursor: pointer;
+    transition: all .3s linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 1441px) {
+        width: 8.89vw;
+        height: 12vw;
+        padding: 0.42vw;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        -o-object-fit: cover;
+        object-fit: cover;
+
+        @media (min-width: 1441px) {
+            border-radius: 0.97vw;
+        }
+    }
+}

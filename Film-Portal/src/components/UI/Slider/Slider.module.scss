@@ -1,0 +1,48 @@
+@import "../../../App/App.scss";
+
+.sliderBox {
+    width: 20vw;
+    @media (min-width: 1441px) {
+        width: 10vw;
+    }
+}
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+    background: $color-white;
+    border-radius: 8px;
+    width: 100%;
+    height: 0.3vh;
+    border: 1px solid $color-light-grey;
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        cursor: pointer;
+        background: $color-black;
+        border-radius: 8px;
+        width: 1vw;
+        height: 1vw;
+        border: 1px solid $color-light-grey;
+        scale: 1;
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        cursor: pointer;
+        background: $color-light-grey;
+        border-radius: 8px;
+        scale: 1.1;
+        border: 1px solid $color-white;
+        transition: all 0.3s ease-in-out;
+    }
+}
+.output {
+    cursor: default;
+    font-size: 14px;
+    line-height: 1.9vw;
+    
+    @media (min-width: 1441px) {
+        font-size: 0.75vw;
+    }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "Language": "Русский",
+    "Header": {
+      "TV_Movies": "Кино на ТВ",
+      "Movies": "Фильмы",
+      "Serials": "Сериалы",
+      "Animation": "Мультфильмы",
+      "Comedy": "Комедии",
+      "New": "Новинки",
+      "Journal": "Журнал",
+      "TV": "ТВ",
+      "Administration": "Администрация"
+    },
+    "Footer": {
+      "registration": "Регистрация и оплата",
+      "privat": "Политика приватности",
+      "consent": "Пользовательское соглашение",
+      "error": "Сообщить об ошибке",
+      "about": " О нас",
+      "contacts": "Контакты",
+      "partners": "Партнерам",
+      "work": "Вакансии",
+      "stocks": "Акции",
+      "Journal": "Журнал",
+      "pay_sistem": "Система оплаты",
+      "sup": "Служба поддержки",
+      "watch": "Где смотреть",
+      "FAQ": "Вопросы и ответы",
+      "cards": "Мы принимаем карты",
+      "slogan": "START на большом экране"
+    },
+    "Button": {
+      "test_free": "Попробовать бесплатно",
+      "watch_free": "Смотреть бесплатно",
+      "watch_tr": "Смотреть трейлер",
+      "more": "Показать ещё",
+      "registration": "Зарегистрироваться",
+      "clean": "Сбросить",
+      "answer": "Ответить на комментарий",
+      "add_Comment": "Добавить комментарий",
+      "add_Film": "+ Добавить фильм",
+      "del_Film": "- Удалить фильм",
+      "add_person": "+ Добавить человека",
+      "public": "Опубликовать"
+    },
+    "FilmPage": {
+      "text_header": "Фильм {film?.name_ru} смотреть онлайн",
+      "more": "Показать ещё",
+      "hide": "Свернуть",
+      "persons": "Актеры и съемочная группа",
+      "actor": "В главных ролях ",
+      "composers": "Композиторы",
+      "designers": "Дизайнеры",
+      "directors": "Режиссеры",
+      "editors": "Редакторы",
+      "operators": "Операторы",
+      "producer": "Продюсеры",
+      "translators": "Переводчики",
+      "voiceDirectors": "Режиссеры озвучивания",
+      "voices": "Голоса",
+      "writers": "Сценаристы"
+    },
+    "PersonPage": {
+      "films": "фильмография",
+      "birthday": "День рождения: ",
+      "place_of_birth": "Место рождения: "
+    },
+    "Path": {
+      "main": "Главная",
+      "Movies": "Фильмы",
+      "persons": "Персоны",
+      "admin": "Администрация"
+    },
+    "Catalog": {
+      "header": "Фильмы смотреть онлайн "
+    },
+    "SignUpPage": {
+      "header": "Зарегистрируйтесь и смотрите START 7 дней бесплатно",
+      "email": "Введите e-mail",
+      "password": "Придумайте пароль",
+      "account": "Уже есть аккаунт?",
+      "signIn": "Войти"
+    },
+    "FilmsList": {
+      "empty": "К сожалению, мы ничего не нашли!"
+    }
+  },
+
+  {
+    "Language": "English",
+    "Header": {
+      "TV_Movies": "Movies on TV",
+      "Movies": "Movies",
+      "Serials": "Series",
+      "Animation": "Cartoons",
+      "Comedy": "Comedies",
+      "New": "Novelties",
+      "Journal": "Magazine",
+      "TV": "TV",
+      "Administration": "Administration"
+    },
+    "Footer": {
+      "registration": "Registration and payment",
+      "privat": "Privacy Policy",
+      "consent": "User Agreement",
+      "error": "Report an error",
+      "about": "About us",
+      "contacts": "Contacts",
+      "partners": "Partners",
+      "work": "Vacancies",
+      "stocks": "Promotions",
+      "Journal": "Magazine",
+      "pay_sistem": "Payment system",
+      "sup": "Support Service",
+      "watch": "Where to watch",
+      "FAQ": "Questions and Answers",
+      "cards": "We accept cards",
+      "slogan": "START on the big screen"
+    },
+    "Button": {
+      "test_free": "Try for free",
+      "watch_free": "Watch for free",
+      "watch_tr": "Watch trailer",
+      "more": "Show more",
+      "registration": "Register",
+      "clean": "Reset",
+      "answer": "Reply to a comment",
+      "add_Comment": "Add comment",
+      "add_Film": "+ Add Movie",
+      "del_Film": "- Delete Movie",
+      "add_person": "+ Add Person",
+      "public": "Publish"
+    },
+    "FilmPage": {
+      "text_header": "Movie {film?.name_ru} watch online",
+      "more": "Show more",
+      "hide": "Collapse",
+      "persons": "Actors and crew",
+      "actor": "Actors ",
+      "composers": "Composers",
+      "designers": "Designers",
+      "directors": "Directors",
+      "editors": "Editors",
+      "operators": "Operators",
+      "producer": "Producers",
+      "translators": "Translators",
+      "voiceDirectors": "Voice directors",
+      "voices": "Voices",
+      "writers": "Writers"
+    },
+    "PersonPage": {
+      "films": "filmography",
+      "birthday": "Birthday: ",
+      "place_of_birth": "Place of birth: "
+    },
+    "Path": {
+      "main": "Home",
+      "Movies": "Movies",
+      "persons": "Persons",
+      "admin": "Administration"
+    },
+    "Catalog": {
+      "header": "Watch Movies online "
+    },
+    "SignUpPage": {
+      "header": "Register and watch START 7 days for free",
+      "email": "Enter e-mail",
+      "password": "Come up with a password",
+      "account": "Already have an account?",
+      "signIn": "Log in"
+    },
+    "FilmsList": {
+      "empty": "Unfortunately, we didn't find anything!"
+    }
+  }
+]

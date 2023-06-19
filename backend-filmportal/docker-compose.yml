@@ -1,0 +1,152 @@
+version: '3.9'
+
+services:
+  api-gateway:
+    container_name: api-gateway
+    build:
+      context: ./api-gateway
+      dockerfile: Dockerfile
+    env_file:
+      - ./api-gateway/.docker.env
+    ports:
+      - 4998:4999
+    restart: always
+    command: npm run start:prod
+    depends_on:
+      - website-rabbitmq
+    networks:
+      - backend
+
+  auth-service:
+    container_name: auth-service
+    build:
+      context: ./auth-service
+      dockerfile: Dockerfile
+    env_file:
+      - ./auth-service/.docker.env
+    restart: always
+    command: npm run start:docker
+    depends_on:
+      - website-rabbitmq
+      - postgres_auth
+    networks:
+      - backend
+
+  film-service:
+    container_name: film-service
+    build:
+      context: ./film-service
+      dockerfile: Dockerfile
+    env_file:
+      - ./film-service/.docker.env
+    restart: always
+    command: npm run start:docker
+    depends_on:
+      - website-rabbitmq
+      - postgres_film
+    networks:
+      - backend
+
+  person-service:
+    container_name: person-service
+    build:
+      context: ./person-service
+      dockerfile: Dockerfile
+    env_file:
+      - ./person-service/.docker.env
+    restart: always
+    command: npm run start:docker
+    depends_on:
+      - website-rabbitmq
+      - postgres_person
+    networks:
+      - backend
+
+  comment-service:
+    container_name: comment-service
+    build:
+      context: ./comment-service
+      dockerfile: Dockerfile
+    env_file:
+      - ./comment-service/.docker.env
+    restart: always
+    command: npm run start:docker
+    depends_on:
+      - website-rabbitmq
+      - postgres_comment
+    networks:
+      - backend
+
+  website-rabbitmq:
+    container_name: website-rabbitmq
+    image: rabbitmq:3.11.13-management
+    hostname: rabbitmq
+    restart: always
+    environment:
+      - RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS=-rabbit disk_free_limit 2147483648
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - backend
+
+  postgres_auth:
+    container_name: postgres_auth
+    image: postgres:15.2
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 3333
+      POSTGRES_DB: postgres
+    ports:
+      - 6010:5432
+    networks:
+      - backend
+
+  postgres_film:
+    container_name: postgres_film
+    image: postgres:15.2
+    restart: always
+    environment:
+      PG_USER: postgres
+      POSTGRES_PASSWORD: 3333
+      POSTGRES_DB: films_db
+    volumes:
+      - ./dumps/films-dump.sql:/docker-entrypoint-initdb.d/films-dump.sql
+    ports:
+      - 6011:5432
+    networks:
+      - backend
+
+  postgres_person:
+    container_name: postgres_person
+    image: postgres:15.2
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 3333
+      POSTGRES_DB: persons_db
+    volumes:
+      - ./dumps/persons-dump.sql:/docker-entrypoint-initdb.d/persons-dump.sql
+    ports:
+      - 6012:5432
+    networks:
+      - backend
+
+  postgres_comment:
+    container_name: postgres_comment
+    image: postgres:15.2
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 3333
+      POSTGRES_DB: postgres
+    ports:
+      - 6013:5432
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+

@@ -1,0 +1,26 @@
+.FilmsList {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    position: relative;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5,calc((100% - 80px) / 5));
+    //grid-template-rows: 1fr;
+    
+    &:has(.empty) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.empty {
+    font-size: 20px;
+    outline: none;
+    font-weight: 300;
+    padding: 55px;
+    margin: 0;
+    @media (min-width: 1441px) {
+        font-size: 3vw;
+    }
+}

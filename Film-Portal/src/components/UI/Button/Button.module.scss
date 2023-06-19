@@ -1,0 +1,84 @@
+@import "../../../App/App.scss";
+
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    //line-height: 24px;
+    color: $color-white;
+    border-radius: 4px;
+    gap: 12px;
+    padding: 15px;
+    transition: all 0.2s ease;
+
+    @media (min-width: 1441px) {
+        height: 2.9vw;
+        border-radius: 0.28vw;
+        padding: 0.69vw 1.39vw;
+        font-size: 1vw;
+
+        //line-height: 2.78vw;
+    }
+}
+
+.contained {
+    background: $color-red;
+
+    &:hover {
+        background-color: $color-light-red;
+    }
+}
+
+.outlined {
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid $color-light-grey;
+    &:hover {
+        cursor: pointer;
+        border: 1px solid #fff;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.translucent {
+    background-color: hsla(0, 0%, 95%, 0.2);
+
+    &:hover {
+        background-color: hsla(0, 0%, 95%, 0.34);
+    }
+}
+
+.small {
+    height: 40px;
+    padding: 8px 18px;
+
+    @media (min-width: 1441px) {
+        height: 2.78vw;
+        padding: 0.556vw 1.67vw;
+    }
+}
+.medium {
+    height: 48px;
+    padding: 0 25px;
+
+    @media (min-width: 1441px) {
+        height: 3.33vw;
+        padding: 0 1.84vw;
+    }
+}
+.large {
+    height: 56px;
+    padding: 8px 28px;
+    font-size: 20px;
+    font-weight: normal;
+
+    @media (min-width: 1441px) {
+        height: 3.888888vw;
+        padding: 0 1.9444vw;
+        font-size: 1.3888888vw;
+    }
+}

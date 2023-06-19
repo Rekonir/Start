@@ -1,0 +1,39 @@
+@import "../../App/App.scss";
+
+.columnHeader {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 1vh;
+    @media (min-width: 1441px) {
+        font-size: 1vw;
+    }
+}
+.toggleLenght {
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+    &:last-child {
+        img {
+            transform: rotate(180deg);
+        }
+    }
+}
+.more {
+    display: inline;
+    gap: 15px;
+    font-size: 16px;
+    line-height: 1.25;
+    @media (min-width: 1441px) {
+        font-size: 1vw;
+    }
+    cursor: pointer;
+    overflow: visible;
+    padding-bottom: 2px;
+    border-bottom: 1px solid hsla(0, 0%, 95%, 0.2);
+    transition: all 0.1s linear;
+    &:hover {
+        border-bottom: 1px solid $color-white;
+        transition: all 0.1s linear;
+    }
+}

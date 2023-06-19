@@ -1,0 +1,35 @@
+@import '../../App/App.scss';
+
+.Breadcrumbs {
+    padding-top: 100px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    p:not(:last-child)::after,
+    a:not(:last-child)::after {
+        content: ">";
+        margin: 0px 5px;
+        border-bottom: none;
+        text-decoration: none;
+    }
+    p:not(:last-child),
+    a:not(:last-child) {
+        text-decoration: underline rgba(#ffffff, 0.8);
+        cursor: pointer;
+    }
+    p:not(:last-child):hover,
+    a:not(:last-child):hover {
+        text-decoration: underline rgba(#ffffff, 1);
+    }
+    &:last-child {
+        border-bottom: none;
+        p::after,
+        a::after {
+            content: "";
+            margin: 0px;
+            border-bottom: none;
+        }
+    }
+}

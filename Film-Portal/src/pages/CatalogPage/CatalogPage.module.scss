@@ -1,0 +1,31 @@
+@import "../../App/App.scss";
+.page {
+    //width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0 55px;
+    gap: 50px;
+}
+h1.header {
+    font-size: 36px;
+    margin-top: 3.88888vw;
+    margin-bottom: 1.6666vw;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    @media (min-width: 1441px) {
+        font-size: 3.33333vw;
+    }
+}
+.catalog {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    position: relative;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}

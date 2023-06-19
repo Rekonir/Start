@@ -1,0 +1,35 @@
+@import "../../App/App.scss";
+@import "../../pages/CatalogPage/CatalogPage.module.scss";
+
+.adminBox {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    border: 1px solid $color-light-grey;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        border: 1px solid $color-white;
+        transition: all 0.3s ease-in-out;
+    }
+    & > *:not(:first-child) {
+        border-left: 1px solid $color-light-grey;
+    }
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    & > textarea {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+.genreBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

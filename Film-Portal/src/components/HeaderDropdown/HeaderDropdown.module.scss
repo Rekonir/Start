@@ -1,0 +1,123 @@
+.Dropdown {
+    position: absolute;
+    top: 62px;
+    right: 0;
+
+    @media (min-width: 1441px) {
+        top: 4.31vw;
+    }
+
+    .triangle {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #101319;
+        position: absolute;
+        z-index: 2;
+        top: -8px;
+        right: 12px;
+
+        @media (min-width: 1441px) {
+            border-left: 0.56vw solid transparent;
+            border-right: 0.56vw solid transparent;
+            border-bottom: 0.56vw solid #101319;
+            top: -0.56vw;
+            right: 0.83vw;
+        }
+    }
+
+    .dropdownWrapper {
+        background-color: #101319;
+        width: 272px;
+        font-size: 16px;
+        line-height: 24px;
+    
+        @media (min-width: 1441px) {
+            width: 18.89vw;
+            line-height: 1.67vw;
+            font-size: 1.11vw;
+        }
+    }
+
+    .dropdownBlock {
+        height: 56px;
+        padding: 0 14px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+        position: relative;
+        transition: all .3s ease;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+
+        img {
+            min-width: 24px;
+        }
+
+        @media (min-width: 1441px) {
+            height: 3.89vw;
+            padding: 0 0.97vw;
+            font-size: 1.11vw;
+            line-height: 1.67vw;
+            gap: 0.98vw;
+        }
+    }
+    .dropdownBlock:not(:last-child) {
+        border-bottom: 1px solid #1f252f;
+    }
+    .dropdownBlock:hover {
+        background-color: rgba(39,43,49,.5);
+    }
+
+    .authBlock {
+        padding: 0 16px;
+        justify-content: space-between;
+
+        @media (min-width: 1441px) {
+            padding: 0 1.11vw;
+            height: 3.89vw;
+        }
+    }
+
+    .authText {
+        color: #474f5c;
+    }
+
+    .loginBtn {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        gap: 12px;
+
+        @media (min-width: 1441px) {
+            gap: 0.56vw;
+        }
+
+        img {
+            transition: all .3s ease;
+            opacity: .6;
+
+            @media (min-width: 1441px) {
+                width: 1.67vw;
+            }
+        }
+    }
+
+    .testFreeBtn {
+        padding: 15px;
+        button {
+            width: 231px;
+        }
+    }
+
+    .languageFlag {
+        width: 24px;
+        height: 24px;
+        
+        img {
+            width: 24px;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,236 @@
+@import "../../App/App.scss";
+
+.page {
+    //width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.baner {
+    position: relative;
+    width: 100%;
+    height: 47vw;
+    overflow: hidden;
+    background: $color-gradgrey;
+}
+.banerBox {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.banerBox::after {
+    box-shadow: 120px -100px 100px -50px rgb(29, 31, 35) inset, 70px -100px 20px -50px rgb(23, 25, 27) inset;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.imgBaner {
+    width: 100%;
+    height: 100%;
+}
+
+.topBlock {
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.filmInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: end;
+    max-height: 85%;
+}
+.filmName {
+    font-size: 36px;
+    line-height: 1.5;
+    text-shadow: $color-red 0 0 1vw;
+    @media (min-width: 1441px) {
+        font-size: 3vw;
+    }
+
+}
+.descriptionShort {
+    color: #757d8a;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.ratingTop {
+    background-image: $color-ratingGrad;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.link {
+    border-bottom: 1px solid hsla(217, 8%, 50%, 0.32);
+    font-size: 16px;
+    &:last-child {
+        border-bottom: none;
+    }
+    @media (min-width: 1441px) {
+        font-size: 1vw;
+    }
+}
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+        @media (min-width: 1441px) {
+            font-size: 1.6666vw;
+        }
+    }
+}
+.btnBox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.FilmBotInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 55px;
+}
+.header {
+    font-size: 36px;
+    line-height: 52px;
+    @media (min-width: 1441px) {
+        font-size: 3vw;
+    }
+}
+.trailerBox {
+    width: 50vw;
+    box-shadow: 5px 5px 50px 50px $color-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 28.13vw;
+    margin: 0 auto;
+    position: relative;
+}
+.trailer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.descriptionWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 25px;
+}
+.descriptionFull {
+    width: 81vw;
+    transition: all 0.3s ease-in;
+
+    p {
+        font-size: 16px;
+        line-height: 1.4;
+        @media (min-width: 1441px) {
+            font-size: 1vw;
+        }
+    }
+}
+.descriptionFullSlash {
+    width: 81vw;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+    p {
+        font-size: 16px;
+        line-height: 1.4;
+        @media (min-width: 1441px) {
+            font-size: 1vw;
+        }
+    }
+}
+.toggleDescription {
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+    &:nth-last-of-type(2) {
+        img {
+            transform: rotate(180deg);
+        }
+    }
+    
+}
+.more {
+    display: inline;
+    gap: 15px;
+    font-size: 16px;
+    line-height: 1.25;
+    cursor: pointer;
+    overflow: visible;
+    padding-bottom: 2px;
+    border-bottom: 1px solid hsla(0, 0%, 95%, 0.2);
+    transition: all 0.1s linear;
+    &:hover {
+        border-bottom: 1px solid $color-white;
+        transition: all 0.1s linear;
+    }
+    @media (min-width: 1441px) {
+        font-size: 1vw;
+    }
+}
+
+.socialBox {
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    &>img{
+        max-width: 30%;
+    }
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    @media (min-width: 1441px) {
+        font-size: 0.8vw;
+    }
+}
+.subheader {
+    font-size: 24px;
+    line-height: 40px;
+    @media (min-width: 1441px) {
+        font-size: 2vw;
+    }
+}
+
+.persons {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}

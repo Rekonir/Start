@@ -1,0 +1,25 @@
+.Spinner {
+    animation: Spinner .75s linear infinite;
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+    top: 50%;
+    margin-top: -22px;
+    z-index: 5;
+
+    @keyframes Spinner {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    img {
+        display: block;
+        width: 44px;
+        height: auto;
+    }
+}

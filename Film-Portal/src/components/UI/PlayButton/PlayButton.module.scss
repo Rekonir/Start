@@ -1,0 +1,40 @@
+@import '../../../App/App.scss';
+
+.PlayButton {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 52px;
+    height: 52px;
+    margin: auto;
+    background-color: $color-white;
+    border-radius: 50%;
+    opacity: 0.72;
+    transition: transform .1s linear;
+
+    @media (min-width: 1441px) {
+        width: 3.61vw;
+        height: 3.61vw;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 100%;
+
+        @media (min-width: 1441px) {
+            width: 3.61vw;
+            height: 3.61vw;
+        }
+    }
+
+    &:hover {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+.PlayButtonActive {
+    opacity: 0.72;
+}

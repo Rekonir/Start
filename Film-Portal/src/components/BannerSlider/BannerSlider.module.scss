@@ -1,0 +1,37 @@
+.BannerSlider {
+    position: relative;
+    //width: 100vw;
+    height: 668px;
+    overflow: hidden;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: none;
+
+    @media (min-width: 1441px) {
+        height: 46.38vw;
+    }
+
+    .slide {
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .slidesWrapper {
+        display: flex;
+        overflow-x: visible;
+        transition-property: transform;
+        will-change: transform;
+
+        transition-duration: 0.8s;
+        //height: 100%;
+    }
+
+    .indicatorsWrap {
+        position: absolute;
+        bottom: 140px;
+        right: 56px;
+    }
+}

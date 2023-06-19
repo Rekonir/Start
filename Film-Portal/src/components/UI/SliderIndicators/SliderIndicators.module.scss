@@ -1,0 +1,157 @@
+@import '../../../App/App.scss';
+
+.SliderIndicators {
+    padding: 0 32px;
+    width: fit-content;
+
+    @media (min-width: 1441px) {
+        bottom: 9.72vw;
+        right: 3.89vw;
+        padding: 0 2.22VW;
+    }
+
+    &:hover .arrow {
+        visibility: visible;
+    }
+
+    .SliderIndicatorsWrapper {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 48px;
+        cursor: pointer;
+        z-index: 10;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                position: relative;
+                display: flex;
+                align-items: center;
+                height: 48px;
+
+                animation-duration: 17.5s;
+                transform: scale(1);
+                animation-play-state: running;
+
+                @media (min-width: 1441px) {
+                    height: 3.33vw;
+                }
+            }
+        }
+    }
+
+    .indicator {
+        width: 4px;
+        height: 4px;
+        background-color: hsla(0,0%,95%,.34);
+        border-radius: 50px 50px;
+        position: relative;
+
+        @media (min-width: 1441px) {
+            width: 0.28vw;
+            height: 0.28vw;
+            border-radius: 3.47vw 3.47vw;
+        }
+    }
+    .indicatorActive {
+        width: 32px;
+
+        @media (min-width: 1441px) {
+            width: 2.22vw;
+        }
+
+        .indicatorProgress {
+            animation-duration: 17.5s;
+            animation-play-state: running;
+
+            position: absolute;
+            top: 0;
+            width: 4px;
+            height: 4px;
+            background-color: $color-white;
+            border-radius: 50px 50px;
+            animation-name: FullIndicatorActive;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            transition: all .5s linear;
+
+            @media (min-width: 1441px) {
+                width: 0.28vw;
+                height: 0.28vw;
+                border-radius: 3.47vw 3.47vw;
+                animation-name: FullIndicatorActiveScale;
+                animation-timing-function: linear;
+            }
+
+            @keyframes FullIndicatorActive {
+                from {
+                    width: 4px;
+                }
+
+                to {
+                    width: 32px;
+                }
+            }
+
+            @keyframes FullIndicatorActiveScale {
+                from {
+                    width: 0.28vw;
+                }
+
+                to {
+                    width: 2.22vw;
+                }
+            }
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 48px;
+        opacity: .34;
+        transition: all .3s linear;
+        cursor: pointer;
+        z-index: 11;
+        visibility: hidden;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        @media (min-width: 1441px) {
+            width: 2.22vw;
+            height: 3.33vw;
+        }
+    }
+
+    .leftArrow {
+        left: -32px;
+
+        @media (min-width: 1441px) {
+            left: -2.22vw;
+        }
+    }
+    .rightArrow {
+        right: -32px;
+        transform: rotate(180deg);
+
+        @media (min-width: 1441px) {
+            right: -2.22vw;
+        }
+    }
+}

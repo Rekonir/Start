@@ -1,0 +1,876 @@
+{
+    "drama": [
+        {
+            "id": 1,
+            "name_ru": "Тоня против всех",
+            "name_en": "I, Tonya",
+            "poster": "1008385.webp",
+            "rating": 7.3,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 7,
+                    "name": "Великобритания"
+                },
+                {
+                    "id": 99,
+                    "name": "Катар"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name_ru": "Вавилон",
+            "name_en": "Babel",
+            "poster": "102125.webp",
+            "rating": 7.6,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 4,
+                    "name": "Франция"
+                },
+                {
+                    "id": 139,
+                    "name": "Мексика"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name_ru": "Хэнкок",
+            "name_en": "Hancock",
+            "poster": "102151.webp",
+            "rating": 7.4,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name_ru": "Джейн Остин",
+            "name_en": "Becoming Jane",
+            "poster": "102152.webp",
+            "rating": 7.8,
+            "country": [
+                {
+                    "id": 7,
+                    "name": "Великобритания"
+                },
+                {
+                    "id": 90,
+                    "name": "Ирландия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name_ru": "Развод по-американски",
+            "name_en": "The Break-Up",
+            "poster": "102160.webp",
+            "rating": 6.6,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name_ru": "Иллюзионист",
+            "name_en": "The Illusionist",
+            "poster": "102198.webp",
+            "rating": 8,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 230,
+                    "name": "Чехия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name_ru": "Бунтарка",
+            "name_en": "Stick It",
+            "poster": "102339.webp",
+            "rating": 7.1,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 8,
+                    "name": "Германия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name_ru": "Князь Владимир",
+            "name_en": null,
+            "poster": "103370.webp",
+            "rating": 7.2,
+            "country": [
+                {
+                    "id": 1,
+                    "name": "Россия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name_ru": "Паразиты",
+            "name_en": "Gisaengchung",
+            "poster": "1043758.webp",
+            "rating": 8,
+            "country": [
+                {
+                    "id": 9,
+                    "name": "Корея Южная"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name_ru": "Однажды в… Голливуде",
+            "name_en": "Once Upon a Time in... Hollywood",
+            "poster": "1047883.webp",
+            "rating": 7.7,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 7,
+                    "name": "Великобритания"
+                },
+                {
+                    "id": 104,
+                    "name": "Китай"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        }
+    ],
+    "comedy": [
+        {
+            "id": 1,
+            "name_ru": "Тоня против всех",
+            "name_en": "I, Tonya",
+            "poster": "1008385.webp",
+            "rating": 7.3,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 7,
+                    "name": "Великобритания"
+                },
+                {
+                    "id": 99,
+                    "name": "Катар"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name_ru": "Человек-паук: Вдали от дома",
+            "name_en": "Spider-Man: Far from Home",
+            "poster": "1008445.webp",
+            "rating": 7.4,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name_ru": "Хэнкок",
+            "name_en": "Hancock",
+            "poster": "102151.webp",
+            "rating": 7.4,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name_ru": "Развод по-американски",
+            "name_en": "The Break-Up",
+            "poster": "102160.webp",
+            "rating": 6.6,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name_ru": "Бунтарка",
+            "name_en": "Stick It",
+            "poster": "102339.webp",
+            "rating": 7.1,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 8,
+                    "name": "Германия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name_ru": "Кунг-фу Панда",
+            "name_en": "Kung Fu Panda",
+            "poster": "103734.webp",
+            "rating": 7.8,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name_ru": "Паразиты",
+            "name_en": "Gisaengchung",
+            "poster": "1043758.webp",
+            "rating": 8,
+            "country": [
+                {
+                    "id": 9,
+                    "name": "Корея Южная"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name_ru": "Ночная смена",
+            "name_en": null,
+            "poster": "1045170.webp",
+            "rating": 6.5,
+            "country": [
+                {
+                    "id": 1,
+                    "name": "Россия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name_ru": "Однажды в… Голливуде",
+            "name_en": "Once Upon a Time in... Hollywood",
+            "poster": "1047883.webp",
+            "rating": 7.7,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 7,
+                    "name": "Великобритания"
+                },
+                {
+                    "id": 104,
+                    "name": "Китай"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name_ru": "Королевский корги",
+            "name_en": "The Queen's Corgi",
+            "poster": "1047996.webp",
+            "rating": 7,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 33,
+                    "name": "Бельгия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        }
+    ],
+    "rating": [
+        {
+            "id": 176,
+            "name_ru": "Побег из Шоушенка",
+            "name_en": "The Shawshank Redemption",
+            "poster": "326.webp",
+            "rating": 9.1,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 270,
+            "name_ru": "Зеленая миля",
+            "name_en": "The Green Mile",
+            "poster": "435.webp",
+            "rating": 9.1,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 10,
+                    "name_ru": "Фэнтези",
+                    "name_ru_singular": "Фэнтези",
+                    "name_en": "fantasy"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 18,
+                    "name_ru": "Криминал",
+                    "name_ru_singular": "Криминал",
+                    "name_en": "crime"
+                }
+            ]
+        },
+        {
+            "id": 282,
+            "name_ru": "Форрест Гамп",
+            "name_en": "Forrest Gump",
+            "poster": "448.webp",
+            "rating": 8.9,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 14,
+                    "name_ru": "Исторические",
+                    "name_ru_singular": "История",
+                    "name_en": "history"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                },
+                {
+                    "id": 7,
+                    "name_ru": "Мелодрамы",
+                    "name_ru_singular": "Мелодрама",
+                    "name_en": "romance"
+                },
+                {
+                    "id": 11,
+                    "name_ru": "Военные",
+                    "name_ru_singular": "Военный",
+                    "name_en": "war"
+                }
+            ]
+        },
+        {
+            "id": 119,
+            "name_ru": "Король Лев",
+            "name_en": "The Lion King",
+            "poster": "2360.webp",
+            "rating": 8.8,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 26,
+                    "name_ru": "Мюзиклы",
+                    "name_ru_singular": "Мюзикл",
+                    "name_en": "musical"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 12,
+                    "name_ru": "Семейные",
+                    "name_ru_singular": "Семейный",
+                    "name_en": "family"
+                },
+                {
+                    "id": 9,
+                    "name_ru": "Приключения",
+                    "name_ru_singular": "Приключения",
+                    "name_en": "adventure"
+                },
+                {
+                    "id": 2,
+                    "name_ru": "Мультфильмы",
+                    "name_ru_singular": "Мультфильм",
+                    "name_en": "animation"
+                }
+            ]
+        },
+        {
+            "id": 180,
+            "name_ru": "Список Шиндлера",
+            "name_en": "Schindler's List",
+            "poster": "329.webp",
+            "rating": 8.8,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 19,
+                    "name_ru": "Биографии",
+                    "name_ru_singular": "Биография",
+                    "name_en": "biography"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 14,
+                    "name_ru": "Исторические",
+                    "name_ru_singular": "История",
+                    "name_en": "history"
+                },
+                {
+                    "id": 11,
+                    "name_ru": "Военные",
+                    "name_ru_singular": "Военный",
+                    "name_en": "war"
+                }
+            ]
+        },
+        {
+            "id": 377,
+            "name_ru": "1+1",
+            "name_en": "Intouchables",
+            "poster": "535341.webp",
+            "rating": 8.8,
+            "country": [
+                {
+                    "id": 4,
+                    "name": "Франция"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 19,
+                    "name_ru": "Биографии",
+                    "name_ru_singular": "Биография",
+                    "name_en": "biography"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 1,
+                    "name_ru": "Комедии",
+                    "name_ru_singular": "Комедия",
+                    "name_en": "comedy"
+                }
+            ]
+        },
+        {
+            "id": 199,
+            "name_ru": "Бойцовский клуб",
+            "name_en": "Fight Club",
+            "poster": "361.webp",
+            "rating": 8.7,
+            "country": [
+                {
+                    "id": 8,
+                    "name": "Германия"
+                },
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 18,
+                    "name_ru": "Криминал",
+                    "name_ru_singular": "Криминал",
+                    "name_en": "crime"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 5,
+                    "name_ru": "Триллеры",
+                    "name_ru_singular": "Триллер",
+                    "name_en": "thriller"
+                }
+            ]
+        },
+        {
+            "id": 216,
+            "name_ru": "Леон",
+            "name_en": "Léon",
+            "poster": "389.webp",
+            "rating": 8.7,
+            "country": [
+                {
+                    "id": 4,
+                    "name": "Франция"
+                },
+                {
+                    "id": 3,
+                    "name": "США"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 18,
+                    "name_ru": "Криминал",
+                    "name_ru_singular": "Криминал",
+                    "name_en": "crime"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 6,
+                    "name_ru": "Боевики",
+                    "name_ru_singular": "Боевик",
+                    "name_en": "action"
+                },
+                {
+                    "id": 5,
+                    "name_ru": "Триллеры",
+                    "name_ru_singular": "Триллер",
+                    "name_en": "thriller"
+                }
+            ]
+        },
+        {
+            "id": 188,
+            "name_ru": "Властелин колец: Возвращение короля",
+            "name_en": "The Lord of the Rings: The Return of the King",
+            "poster": "3498.webp",
+            "rating": 8.7,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 153,
+                    "name": "Новая Зеландия"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 6,
+                    "name_ru": "Боевики",
+                    "name_ru_singular": "Боевик",
+                    "name_en": "action"
+                },
+                {
+                    "id": 9,
+                    "name_ru": "Приключения",
+                    "name_ru_singular": "Приключения",
+                    "name_en": "adventure"
+                },
+                {
+                    "id": 10,
+                    "name_ru": "Фэнтези",
+                    "name_ru_singular": "Фэнтези",
+                    "name_en": "fantasy"
+                },
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                }
+            ]
+        },
+        {
+            "id": 281,
+            "name_ru": "Начало",
+            "name_en": "Inception",
+            "poster": "447301.webp",
+            "rating": 8.7,
+            "country": [
+                {
+                    "id": 3,
+                    "name": "США"
+                },
+                {
+                    "id": 7,
+                    "name": "Великобритания"
+                }
+            ],
+            "genres": [
+                {
+                    "id": 15,
+                    "name_ru": "Драмы",
+                    "name_ru_singular": "Драма",
+                    "name_en": "drama"
+                },
+                {
+                    "id": 8,
+                    "name_ru": "Детективы",
+                    "name_ru_singular": "Детектив",
+                    "name_en": "mystery"
+                },
+                {
+                    "id": 6,
+                    "name_ru": "Боевики",
+                    "name_ru_singular": "Боевик",
+                    "name_en": "action"
+                },
+                {
+                    "id": 5,
+                    "name_ru": "Триллеры",
+                    "name_ru_singular": "Триллер",
+                    "name_en": "thriller"
+                },
+                {
+                    "id": 4,
+                    "name_ru": "Фантастика",
+                    "name_ru_singular": "Фантастика",
+                    "name_en": "sci-fi"
+                }
+            ]
+        }
+    ]
+}

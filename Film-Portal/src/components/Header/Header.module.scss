@@ -1,0 +1,90 @@
+@import "../../App/App.scss";
+
+.Header {
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 28px 56px;
+    transition: padding 0.2s linear;
+    //background: $color-dark-grey;
+
+    @media (max-width: 1024px) {
+        height: 60px;
+        padding: 0 24px;
+    }
+
+}
+
+    .left {
+        display: flex;
+        gap: 40px;
+
+        .logo {
+            display: block;
+            height: 40px;
+            width: 82px;
+
+            @media (max-width: 1024px) {
+                height: 32px;
+                width: 66px;
+            }
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            font-size: 1vw;
+            line-height: 28px;
+        }
+
+        .link {
+            opacity: 0.8;
+            transition: opacity 0.2s ease;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        gap: 16px;
+        position: relative;
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            position: relative;
+        }
+        .icon {
+            display: block;
+            width: 32px;
+            height: 32px;
+            opacity: 0.6;
+            transition: all 0.3s ease;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 1;
+                transform: scale(1.05);
+            }
+        }
+        .burger {
+            height: 15px;
+            width: 18px;
+        }
+    }
+
+.Header_small {
+    padding: 12px 56px;
+    background: $color-black;
+}

@@ -1,0 +1,153 @@
+@import '../../App/App.scss';
+
+.RowSlider {
+
+    &:hover .arrow,
+    &:hover .fade,
+    &:hover .paginator {
+        visibility: visible;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        overflow: hidden;
+
+        @media (min-width: 1441px) {
+            margin-bottom: 0.555vw;
+        }
+
+        h2 {
+            position: relative;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            
+            @media (min-width: 1441px) {
+                font-size: 1.39vw;
+                line-height: 1.67vw;
+            }
+        }
+    }
+
+    .slide {
+        position: relative;
+        //width: 100vw;
+        height: auto;
+        transition: height .3s linear;
+        overflow-y: visible;
+    }
+
+    .sliderWrapper {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        z-index: 2;
+        padding: 0 56px;
+        scroll-padding: 0 56px;
+        overflow-y: visible;
+        box-sizing: content-box;
+        overflow-x: scroll;
+        -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+        overscroll-behavior-x: contain;
+        scrollbar-width: none;
+        scroll-behavior: smooth;
+        transition: height .3s linear;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        @media (min-width: 1441px) {
+            gap: 1.11vw;
+            padding: 0 3.89vw;
+            scroll-padding: 0 3.89vw;
+        }
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .slideItem {
+            scroll-snap-align: start;
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+        //opacity: 0;
+        opacity: .34;
+        cursor: pointer;
+        visibility: hidden;
+
+        @media (min-width: 1441px) {
+            width: 3.89vw;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .paginator {
+        position: absolute;
+        top: -22px;
+        right: 50px;
+        visibility: hidden;
+
+        @media (min-width: 1441px) {
+            top: -1.53vw;
+            width: 7.43vw;
+        }
+    }
+
+    .leftArrow {
+        left: 0;
+    }
+    .rightArrow {
+        right: 0;
+        transform: rotate(180deg);
+    }
+
+    .fade {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        width: 100px;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        height: 100%;
+        background-color: $color-dark-grey;
+        opacity: 0.8;
+        animation: Slider_visible__jdA_J .7s;
+        visibility: hidden;
+
+        @media (min-width: 1441px) {
+            width: 3.89vw;
+            border-top-left-radius: 0.21vw;
+            border-bottom-left-radius: 0.21vw;
+        }
+    }
+    .fadeLeft {
+        left: 0;
+        width: 56px;
+
+        @media (min-width: 1441px) {
+            width: 3.89vw;
+        }
+    }
+    .fadeRight {
+        right: 0;
+        width: 56px;
+
+        @media (min-width: 1441px) {
+            width: 3.89vw;
+        }
+    }
+}

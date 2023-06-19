@@ -1,0 +1,30 @@
+@import '../../App/App.scss';
+
+.AuthFooter {
+    padding: 40px;
+    display: flex;
+    background: $color-dark-grey;
+    width: 100%;
+    justify-content: center;
+
+    .email {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-right: 24px;
+        font-size: 16px;
+        line-height: 1.25;
+
+        span {
+            line-height: 20px;
+            border-bottom: 1px solid hsla(0,0%,95%,.2);
+            transition: all .3s ease-in-out;
+            -o-transition: all .3s ease-in-out;
+            -moz-transition: all .3s ease-in-out;
+            -webkit-transition: all .3s ease-in-out;
+        }
+        span:hover {
+            border-bottom: 1px solid $color-white;
+        }
+    }
+}

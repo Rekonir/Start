@@ -1,0 +1,42 @@
+@import "../../../App/App.scss";
+
+.nav {
+    padding-top: 100px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    @media (min-width: 1441px) {
+        padding-top: 6vw;
+        font-size: 0.8vw;
+    }
+
+    p:not(:last-child)::after,
+    a:not(:last-child)::after {
+        content: ">";
+        margin: 0px 5px;
+        border-bottom: none;
+        text-decoration: none;
+        display:inline-block;
+    }
+    p:not(:last-child),
+    a:not(:last-child) {
+        text-decoration: underline rgba($color-white, 0.8);
+        cursor: pointer;
+    }
+    p:not(:last-child):hover,
+    a:not(:last-child):hover {
+        text-decoration: underline rgba($color-white, 1);
+    }
+    &:last-child {
+        border-bottom: none;
+        p::after,
+        a::after {
+            content: "";
+            margin: 0px;
+            border-bottom: none;
+        }
+    }
+}

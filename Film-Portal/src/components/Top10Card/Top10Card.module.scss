@@ -1,0 +1,228 @@
+.Top10Card {
+    .link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // width: 381px;
+        // height: 160px;
+
+        // width: 305px;
+        // height: 233px;
+
+        position: relative;
+
+        // @media (min-width: 1441px) {
+        //     width: 26.46vw;
+        //     height: 11.11vw;
+        // }
+
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     width: 25px;
+        //     height: 160px;
+
+        //     // width: 36px;
+        //     // height: 233px;
+        //     background-image: url(../../assets/img/svg/ellipse.svg);
+        //     background-position: 50%;
+        //     background-size: cover;
+        //     background-repeat: no-repeat;
+
+        //     @media (min-width: 1441px) {
+        //         width: 1.74vw;
+        //         height: 11.11vw;
+        //     }
+        // }
+
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 0;
+        //     right: 0;
+        //     width: 25px;
+        //     height: 160px;
+
+        //     // width: 36px;
+        //     // height: 233px;
+        //     background-image: url(../../assets/img/svg/ellipse.svg);
+        //     background-position: 50%;
+        //     background-size: cover;
+        //     background-repeat: no-repeat;
+        //     transform: rotate(180deg);
+
+        //     @media (min-width: 1441px) {
+        //         width: 1.74vw;
+        //         height: 11.11vw;
+        //     }
+        // }
+    }
+
+    .numberWrap {
+        padding: 7px 0;
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .number {
+        
+        margin-right: 20px;
+        height: 116px;
+
+        width: auto;
+        height: 34px;
+        margin-right: 0;
+        position: relative;
+
+
+        @media (min-width: 1441px) {
+            // width: auto;
+            // height: 8.06vw;
+            // margin-right: 1.39vw;
+            height: 2.36vw;
+        }
+
+        img {
+            display: block;
+            height: 100%;
+            width: auto;
+
+            @media (min-width: 1441px) {
+                width: auto;
+                height: 8.06vw;
+
+                height: 100%;
+            }
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            // top: 0;
+            // left: 0;
+            // width: 25px;
+            // height: 160px;
+
+            // width: 36px;
+            // height: 233px;
+            background-image: url(../../assets/img/svg/ellipse_mobile.svg);
+            background-position: 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            top: -7px;
+            left: -30px;
+            width: 12px;
+            height: 48px;
+
+            @media (min-width: 1441px) {
+                width: 0.8vw;
+                height: 3.33vw;
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            // top: 0;
+            // right: 0;
+            // width: 25px;
+            // height: 160px;
+
+            // width: 36px;
+            // height: 233px;
+            background-image: url(../../assets/img/svg/ellipse_mobile.svg);
+            background-position: 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            transform: rotate(180deg);
+
+            top: -7px;
+            right: -30px;
+            width: 12px;
+            height: 48px;
+
+            @media (min-width: 1441px) {
+                width: 0.8vw;
+                height: 3.33vw;
+            }
+        }
+    }
+
+    .content {
+        // display: flex;
+        // width: 242px;
+        // height: 136px;
+        
+        // // width: 146px;
+        // // height: 209px;
+        // border-radius: 4px;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        // background-position: 50%;
+        // position: relative;
+
+        // @media (min-width: 1441px) {
+        //     width: 16.794vw;
+        //     height: 9.438vw;
+        //     border-radius: 0.28vw;
+
+            
+        //     // width: 10.132vw;
+        //     // height: 14.504vw;
+        // }
+
+
+        display: flex;
+        width: 242px;
+        height: 136px;
+    
+        width: 95px;
+        height: 136px;
+    
+        width: 146px;
+        height: 209px;
+    
+        border-radius: 4px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        position: relative;
+    
+        @media (min-width: 1441px) {
+            width: 16.794vw;
+            height: 9.438vw;
+            border-radius: 0.28vw;
+    
+            width: 10.132vw;
+            height: 14.504vw;
+        }
+
+        &:hover::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-image: linear-gradient(180deg,rgba(29,31,35,.52),rgba(29,31,35,.8));
+            border-radius: 4px;
+
+            @media (min-width: 1441px) {
+                border-radius: 0.28vw;
+            }
+        }
+
+        .playBtn {
+            visibility: hidden;
+        }
+        &:hover .playBtn{
+            visibility: visible;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name_ru": "Актер",
+    "name_en": "actor"
+  },
+  {
+    "id": 2,
+    "name_ru": "Продюсер",
+    "name_en": "producer"
+  },
+  {
+    "id": 3,
+    "name_ru": "Дубляж",
+    "name_en": "voice"
+  },
+  {
+    "id": 4,
+    "name_ru": "Сценарист",
+    "name_en": "writer"
+  },
+  {
+    "id": 5,
+    "name_ru": "Оператор",
+    "name_en": "operator"
+  },
+  {
+    "id": 6,
+    "name_ru": "Художник",
+    "name_en": "design"
+  },
+  {
+    "id": 7,
+    "name_ru": "Монтаж",
+    "name_en": "editor"
+  },
+  {
+    "id": 8,
+    "name_ru": "Композитор",
+    "name_en": "composer"
+  },
+  {
+    "id": 9,
+    "name_ru": "Режиссер",
+    "name_en": "director"
+  }
+]
